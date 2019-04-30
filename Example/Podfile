@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HTUIKit_Example' do
+  pod 'HTUIKit', :path => '../'
+
+  target 'HTUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
