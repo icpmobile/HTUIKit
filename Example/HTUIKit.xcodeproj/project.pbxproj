@@ -59,14 +59,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8019318E538E5ED883844086 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8019318E538E5ED883844086 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B0B37E5F8EDB9EAF596BB595 /* HTUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HTUIKit.podspec; path = ../HTUIKit.podspec; sourceTree = "<group>"; };
+		B0B37E5F8EDB9EAF596BB595 /* HTUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HTUIKit.podspec; path = ../HTUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC714D371C0458AE2F43654E /* Pods-HTUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HTUIKit_Tests/Pods-HTUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D71113766B205A36E06726A7 /* Pods_HTUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB54DFC45B5815FFB796981 /* Pods-HTUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-HTUIKit_Example/Pods-HTUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F4465EA1B80EF9ACDE68F573 /* Pods-HTUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-HTUIKit_Tests/Pods-HTUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FCF0368F6BEE8D4108AEECAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FCF0368F6BEE8D4108AEECAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				BC714D371C0458AE2F43654E /* Pods-HTUIKit_Tests.debug.xcconfig */,
 				F4465EA1B80EF9ACDE68F573 /* Pods-HTUIKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhanglianjiang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = S58Y7NKA46;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -349,12 +352,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HTUIKit_Example/Pods-HTUIKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HTUIKit/HTUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMUIKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -498,6 +503,7 @@
 			baseConfigurationReference = 1F0D87897006FB60B7E74C38 /* Pods-HTUIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S58Y7NKA46;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTUIKit/HTUIKit-Prefix.pch";
 				INFOPLIST_FILE = "HTUIKit/HTUIKit-Info.plist";
@@ -513,6 +519,7 @@
 			baseConfigurationReference = DEB54DFC45B5815FFB796981 /* Pods-HTUIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S58Y7NKA46;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTUIKit/HTUIKit-Prefix.pch";
 				INFOPLIST_FILE = "HTUIKit/HTUIKit-Info.plist";
