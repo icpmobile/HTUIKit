@@ -23,7 +23,7 @@
 #import "HTFormMultiEditView.h"
 #import "UITextView+Placeholder.h"
 #import "EasySignatureView.h"
-#import "PopSignatureView.h"
+#import "HTSignatureView.h"
 #import "QDThemeManager.h"
 #import "QDThemeProtocol.h"
 #import "QMUIConfigurationTemplate.h"
@@ -37,6 +37,8 @@
 #import "QDCommonUI.h"
 #import "QDUIHelper.h"
 #import "UIImageEffects.h"
+#import "WRCustomNavigationBar.h"
+#import "WRNavigationBar.h"
 
 FOUNDATION_EXPORT double HTUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char HTUIKitVersionString[];
