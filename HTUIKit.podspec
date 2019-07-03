@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTUIKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.4'
   s.summary          = 'ICP-Mobile UI组件库之 HTUIKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'HTUIKit/Classes/**/*'
+  #s.source_files = 'HTUIKit/Classes/**/*'
   
   # s.resource_bundles = {
   #   'HTUIKit' => ['HTUIKit/Assets/*.png']
@@ -42,25 +42,26 @@ TODO: Add long description of the pod here.
   
   s.dependency 'QMUIKit', '3.1.7'
 
-
-  s.subspec 'WRNavigationBar' do |ss|
-    ss.source_files = 'HTUIKit/Classes/WRNavigationBar'
+#
+  s.subspec 'WRNavigationBar' do |wr|
+    wr.source_files = 'HTUIKit/Classes/WRNavigationBar'
   end
-  
-  s.subspec 'BRPickerView' do |ss|
-    ss.source_files = 'HTUIKit/Classes/BRPickerView'
+#
+  s.subspec 'BRPickerView' do |br|
+    br.source_files = 'HTUIKit/Classes/BRPickerView/**/*'
   end
-  
-  s.subspec 'HTFormView' do |ss|
-    ss.source_files = 'HTUIKit/Classes/HTFormView'
+#
+  s.subspec 'HTFormView' do |form|
+    form.source_files = 'HTUIKit/Classes/HTFormView'
+    form.dependency 'HTUIKit/BRPickerView'
   end
-
-  s.subspec 'HTSignature' do |ss|
-    ss.source_files = 'HTUIKit/Classes/HTSignature'
+#
+  s.subspec 'HTSignature' do |si|
+    si.source_files = 'HTUIKit/Classes/HTSignature'
   end
-  
-  s.subspec 'QMUI_Common' do |ss|
-    ss.source_files = 'HTUIKit/Classes/QMUI_Common/**/*'
+#
+  s.subspec 'QMUI_Common' do |qm|
+    qm.source_files = 'HTUIKit/Classes/QMUI_Common/**/*'
   end
 
 end

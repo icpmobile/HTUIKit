@@ -1,6 +1,6 @@
 {
   "name": "HTUIKit",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "summary": "ICP-Mobile UI组件库之 HTUIKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/icpmobile/HTUIKit",
@@ -13,12 +13,11 @@
   },
   "source": {
     "git": "https://github.com/icpmobile/HTUIKit.git",
-    "tag": "0.1.2"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "HTUIKit/Classes/**/*",
   "dependencies": {
     "QMUIKit": [
       "3.1.7"
@@ -31,11 +30,16 @@
     },
     {
       "name": "BRPickerView",
-      "source_files": "HTUIKit/Classes/BRPickerView"
+      "source_files": "HTUIKit/Classes/BRPickerView/**/*"
     },
     {
       "name": "HTFormView",
-      "source_files": "HTUIKit/Classes/HTFormView"
+      "source_files": "HTUIKit/Classes/HTFormView",
+      "dependencies": {
+        "HTUIKit/BRPickerView": [
+
+        ]
+      }
     },
     {
       "name": "HTSignature",
