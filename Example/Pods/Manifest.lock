@@ -1,20 +1,20 @@
 PODS:
-  - HTUIKit (0.1.1):
-    - HTUIKit/BRPickerView (= 0.1.1)
-    - HTUIKit/HTFormView (= 0.1.1)
-    - HTUIKit/HTSignature (= 0.1.1)
-    - HTUIKit/QMUI_Common (= 0.1.1)
-    - HTUIKit/WRNavigationBar (= 0.1.1)
+  - HTUIKit (0.1.2):
+    - HTUIKit/BRPickerView (= 0.1.2)
+    - HTUIKit/HTFormView (= 0.1.2)
+    - HTUIKit/HTSignature (= 0.1.2)
+    - HTUIKit/QMUI_Common (= 0.1.2)
+    - HTUIKit/WRNavigationBar (= 0.1.2)
     - QMUIKit (= 3.1.7)
-  - HTUIKit/BRPickerView (0.1.1):
+  - HTUIKit/BRPickerView (0.1.2):
     - QMUIKit (= 3.1.7)
-  - HTUIKit/HTFormView (0.1.1):
+  - HTUIKit/HTFormView (0.1.2):
     - QMUIKit (= 3.1.7)
-  - HTUIKit/HTSignature (0.1.1):
+  - HTUIKit/HTSignature (0.1.2):
     - QMUIKit (= 3.1.7)
-  - HTUIKit/QMUI_Common (0.1.1):
+  - HTUIKit/QMUI_Common (0.1.2):
     - QMUIKit (= 3.1.7)
-  - HTUIKit/WRNavigationBar (0.1.1):
+  - HTUIKit/WRNavigationBar (0.1.2):
     - QMUIKit (= 3.1.7)
   - QMUIKit (3.1.7):
     - QMUIKit/QMUIComponents (= 3.1.7)
@@ -295,7 +295,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HTUIKit: 5aee43f7a26b5fe71864a430eac8c89709420851
+  HTUIKit: 664acb9ca2df2fd13463c7dcbd9e4ff6f877f94f
   QMUIKit: de5dce4852e6856f8d87b3553505b693c003265f
 
 PODFILE CHECKSUM: e1e3a5740d78177fbdc263c641b89855ca76ee82

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTUIKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'ICP-Mobile UI组件库之 HTUIKit.'
 
 # This description is used to generate tags and improve search results.
@@ -60,7 +60,7 @@ TODO: Add long description of the pod here.
   end
   
   s.subspec 'QMUI_Common' do |ss|
-    ss.source_files = 'HTUIKit/Classes/QMUI_Common'
+    ss.source_files = 'HTUIKit/Classes/QMUI_Common/**/*'
   end
 
 end
