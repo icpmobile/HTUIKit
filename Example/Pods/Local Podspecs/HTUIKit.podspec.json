@@ -1,6 +1,6 @@
 {
   "name": "HTUIKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "ICP-Mobile UI组件库之 HTUIKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/icpmobile/HTUIKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/icpmobile/HTUIKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
@@ -23,5 +23,27 @@
     "QMUIKit": [
       "3.1.7"
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "WRNavigationBar",
+      "source_files": "HTUIKit/Classes/WRNavigationBar"
+    },
+    {
+      "name": "BRPickerView",
+      "source_files": "HTUIKit/Classes/BRPickerView"
+    },
+    {
+      "name": "HTFormView",
+      "source_files": "HTUIKit/Classes/HTFormView"
+    },
+    {
+      "name": "HTSignature",
+      "source_files": "HTUIKit/Classes/HTSignature"
+    },
+    {
+      "name": "QMUI_Common",
+      "source_files": "HTUIKit/Classes/QMUI_Common"
+    }
+  ]
 }

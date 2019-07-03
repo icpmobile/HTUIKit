@@ -39,6 +39,16 @@
 #import "UIImageEffects.h"
 #import "WRCustomNavigationBar.h"
 #import "WRNavigationBar.h"
+#import "BRPickerView.h"
+#import "BRPickerViewMacro.h"
+#import "HTFormCellView.h"
+#import "HTFormModel.h"
+#import "HTFormMultiEditView.h"
+#import "UITextView+Placeholder.h"
+#import "EasySignatureView.h"
+#import "HTSignatureView.h"
+#import "WRCustomNavigationBar.h"
+#import "WRNavigationBar.h"
 
 FOUNDATION_EXPORT double HTUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char HTUIKitVersionString[];
