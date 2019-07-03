@@ -18,6 +18,11 @@
   "platforms": {
     "ios": "9.0"
   },
+  "resource_bundles": {
+    "HTUIKit": [
+      "HTUIKit/Assets/*.png"
+    ]
+  },
   "subspecs": [
     {
       "name": "WRNavigationBar",
