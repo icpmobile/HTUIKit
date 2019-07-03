@@ -1,6 +1,6 @@
 {
   "name": "HTUIKit",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "ICP-Mobile UI组件库之 HTUIKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/icpmobile/HTUIKit",
@@ -13,15 +13,10 @@
   },
   "source": {
     "git": "https://github.com/icpmobile/HTUIKit.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "9.0"
-  },
-  "dependencies": {
-    "QMUIKit": [
-      "3.1.7"
-    ]
   },
   "subspecs": [
     {
@@ -47,7 +42,12 @@
     },
     {
       "name": "QMUI_Common",
-      "source_files": "HTUIKit/Classes/QMUI_Common/**/*"
+      "source_files": "HTUIKit/Classes/QMUI_Common/**/*",
+      "dependencies": {
+        "QMUIKit": [
+          "3.1.7"
+        ]
+      }
     }
   ]
 }
