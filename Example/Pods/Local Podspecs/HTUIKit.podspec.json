@@ -1,6 +1,6 @@
 {
   "name": "HTUIKit",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "summary": "ICP-Mobile UI组件库之 HTUIKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/icpmobile/HTUIKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/icpmobile/HTUIKit.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "9.0"
@@ -53,6 +53,10 @@
           "3.1.7"
         ]
       }
+    },
+    {
+      "name": "DLRadioButton",
+      "source_files": "HTUIKit/Classes/DLRadioButton"
     }
   ]
 }

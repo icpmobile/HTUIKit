@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTUIKit'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'ICP-Mobile UI组件库之 HTUIKit.'
 
 # This description is used to generate tags and improve search results.
@@ -62,4 +62,7 @@ TODO: Add long description of the pod here.
     qm.dependency 'QMUIKit', '3.1.7'
   end
 
+  s.subspec 'DLRadioButton' do |dl|
+    dl.source_files = 'HTUIKit/Classes/DLRadioButton'
+  end
 end
