@@ -4,6 +4,7 @@ PODS:
     - HTUIKit/DLRadioButton (= 0.1.6)
     - HTUIKit/HTFormView (= 0.1.6)
     - HTUIKit/HTSignature (= 0.1.6)
+    - HTUIKit/LGAlertView (= 0.1.6)
     - HTUIKit/QMUI_Common (= 0.1.6)
     - HTUIKit/WRNavigationBar (= 0.1.6)
   - HTUIKit/BRPickerView (0.1.6)
@@ -11,6 +12,7 @@ PODS:
   - HTUIKit/HTFormView (0.1.6):
     - HTUIKit/BRPickerView
   - HTUIKit/HTSignature (0.1.6)
+  - HTUIKit/LGAlertView (0.1.6)
   - HTUIKit/QMUI_Common (0.1.6):
     - QMUIKit (= 3.1.7)
   - HTUIKit/WRNavigationBar (0.1.6)
@@ -293,7 +295,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HTUIKit: c357e777bbded9a7f49dc1ae9ff1d92f312e817e
+  HTUIKit: e2603d5c17618b219a31c8f73127c31792c4790e
   QMUIKit: de5dce4852e6856f8d87b3553505b693c003265f
 
 PODFILE CHECKSUM: e1e3a5740d78177fbdc263c641b89855ca76ee82

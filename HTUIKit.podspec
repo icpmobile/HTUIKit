@@ -65,4 +65,8 @@ TODO: Add long description of the pod here.
   s.subspec 'DLRadioButton' do |dl|
     dl.source_files = 'HTUIKit/Classes/DLRadioButton'
   end
+
+  s.subspec 'LGAlertView' do |lgav|
+    lgav.source_files = 'HTUIKit/Classes/LGAlertView'
+  end
 end

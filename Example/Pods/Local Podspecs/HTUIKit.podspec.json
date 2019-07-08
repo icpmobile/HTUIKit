@@ -57,6 +57,10 @@
     {
       "name": "DLRadioButton",
       "source_files": "HTUIKit/Classes/DLRadioButton"
+    },
+    {
+      "name": "LGAlertView",
+      "source_files": "HTUIKit/Classes/LGAlertView"
     }
   ]
 }
