@@ -292,7 +292,7 @@
         return (CGSizeEqualToSize([UIScreen mainScreen].bounds.size, CGSizeMake(375, 812)) ||
                 CGSizeEqualToSize([UIScreen mainScreen].bounds.size, CGSizeMake(812, 375)));
     }
-    BOOL isIPhoneX = [platform isEqualToString:@"iPhone10,3"] || [platform isEqualToString:@"iPhone10,6"];
+    BOOL isIPhoneX = [platform isEqualToString:@"iPhone10,3"] || [platform isEqualToString:@"iPhone10,6"]|| [platform isEqualToString:@"iPhone11,8"]|| [platform isEqualToString:@"iPhone11,2"]|| [platform isEqualToString:@"iPhone11,4"]|| [platform isEqualToString:@"iPhone11,6"];
     return isIPhoneX;
 }
 
