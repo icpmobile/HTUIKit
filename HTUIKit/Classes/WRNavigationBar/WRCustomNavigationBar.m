@@ -289,10 +289,12 @@
     NSString *platform = [NSString stringWithCString:systemInfo.machine encoding:NSASCIIStringEncoding];
     if ([platform isEqualToString:@"i386"] || [platform isEqualToString:@"x86_64"]) {
         // judgment by height when in simulators
-        return (CGSizeEqualToSize([UIScreen mainScreen].bounds.size, CGSizeMake(375, 812)) ||
-                CGSizeEqualToSize([UIScreen mainScreen].bounds.size, CGSizeMake(812, 375)));
+        // 获取模拟器所对应的 device model
+        NSString *model = NSProcessInfo.processInfo.environment[@"SIMULATOR_MODEL_IDENTIFIER"];
+
+        return [model isEqualToString:@"iPhone10,3"] || [model isEqualToString:@"iPhone10,6"] || [model hasPrefix:@"iPhone11,"];
     }
-    BOOL isIPhoneX = [platform isEqualToString:@"iPhone10,3"] || [platform isEqualToString:@"iPhone10,6"]|| [platform isEqualToString:@"iPhone11,8"]|| [platform isEqualToString:@"iPhone11,2"]|| [platform isEqualToString:@"iPhone11,4"]|| [platform isEqualToString:@"iPhone11,6"];
+    BOOL isIPhoneX = [platform isEqualToString:@"iPhone10,3"] || [platform isEqualToString:@"iPhone10,6"]|| [platform isEqualToString:@"iPhone11,8"]|| [platform isEqualToString:@"iPhone11,2"]|| [platform isEqualToString:@"iPhone11,4"]|| [platform isEqualToString:@"iPhone11,6"]||[platform hasPrefix:@"iPhone11,"];
     return isIPhoneX;
 }
 
