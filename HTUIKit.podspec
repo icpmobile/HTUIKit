@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTUIKit'
-  s.version          = '0.1.10'
+  s.version          = '0.1.11'
   s.summary          = 'ICP-Mobile UI组件库之 HTUIKit.'
 
 # This description is used to generate tags and improve search results.
@@ -72,5 +72,13 @@ TODO: Add long description of the pod here.
   
   s.subspec 'HTDownloadView' do |lgav|
       lgav.source_files = 'HTUIKit/Classes/HTDownloadView'
+  end
+  
+  s.subspec 'HTDownloadView' do |dlv|
+      dlv.source_files = 'HTUIKit/Classes/HTDownloadView'
+  end
+  
+  s.subspec 'LisztPageKit' do |dlv|
+      dlv.source_files = 'HTUIKit/Classes/LisztPageKit/**/*'
   end
 end
