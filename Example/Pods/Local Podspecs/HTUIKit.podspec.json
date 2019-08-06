@@ -1,6 +1,6 @@
 {
   "name": "HTUIKit",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "summary": "ICP-Mobile UI组件库之 HTUIKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/icpmobile/HTUIKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/icpmobile/HTUIKit.git",
-    "tag": "0.1.8"
+    "tag": "0.1.9"
   },
   "platforms": {
     "ios": "9.0"
@@ -61,6 +61,10 @@
     {
       "name": "LGAlertView",
       "source_files": "HTUIKit/Classes/LGAlertView"
+    },
+    {
+      "name": "HTDownloadView",
+      "source_files": "HTUIKit/Classes/HTDownloadView"
     }
   ]
 }

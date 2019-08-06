@@ -69,4 +69,8 @@ TODO: Add long description of the pod here.
   s.subspec 'LGAlertView' do |lgav|
     lgav.source_files = 'HTUIKit/Classes/LGAlertView'
   end
+  
+  s.subspec 'HTDownloadView' do |lgav|
+      lgav.source_files = 'HTUIKit/Classes/HTDownloadView'
+  end
 end
