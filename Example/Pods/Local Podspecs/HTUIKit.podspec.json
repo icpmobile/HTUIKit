@@ -1,6 +1,6 @@
 {
   "name": "HTUIKit",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "summary": "ICP-Mobile UI组件库之 HTUIKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/icpmobile/HTUIKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/icpmobile/HTUIKit.git",
-    "tag": "0.1.12"
+    "tag": "0.1.13"
   },
   "platforms": {
     "ios": "9.0"
@@ -73,6 +73,10 @@
     {
       "name": "DLSlideView",
       "source_files": "HTUIKit/Classes/DLSlideView/**/*"
+    },
+    {
+      "name": "LXGradientProcessView",
+      "source_files": "HTUIKit/Classes/LXGradientProcessView"
     }
   ]
 }

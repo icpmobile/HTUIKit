@@ -48,6 +48,7 @@
 #import "LGAlertViewWindowContainer.h"
 #import "LGAlertViewWindowsObserver.h"
 #import "UIWindow+LGAlertView.h"
+#import "LXGradientProcessView.h"
 #import "LisztPageKit.h"
 #import "LisztPageConstant.h"
 #import "LisztSlideTitleButton.h"
