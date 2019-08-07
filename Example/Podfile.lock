@@ -1,26 +1,27 @@
 PODS:
-  - HTUIKit (0.1.10):
-    - HTUIKit/BRPickerView (= 0.1.10)
-    - HTUIKit/DLRadioButton (= 0.1.10)
-    - HTUIKit/HTDownloadView (= 0.1.10)
-    - HTUIKit/HTDownloadView (= 0.1.10)
-    - HTUIKit/HTFormView (= 0.1.10)
-    - HTUIKit/HTSignature (= 0.1.10)
-    - HTUIKit/LGAlertView (= 0.1.10)
-    - HTUIKit/LisztPageKit (= 0.1.10)
-    - HTUIKit/QMUI_Common (= 0.1.10)
-    - HTUIKit/WRNavigationBar (= 0.1.10)
-  - HTUIKit/BRPickerView (0.1.10)
-  - HTUIKit/DLRadioButton (0.1.10)
-  - HTUIKit/HTDownloadView (0.1.10)
-  - HTUIKit/HTFormView (0.1.10):
+  - HTUIKit (0.1.12):
+    - HTUIKit/BRPickerView (= 0.1.12)
+    - HTUIKit/DLRadioButton (= 0.1.12)
+    - HTUIKit/DLSlideView (= 0.1.12)
+    - HTUIKit/HTDownloadView (= 0.1.12)
+    - HTUIKit/HTFormView (= 0.1.12)
+    - HTUIKit/HTSignature (= 0.1.12)
+    - HTUIKit/LGAlertView (= 0.1.12)
+    - HTUIKit/LisztPageKit (= 0.1.12)
+    - HTUIKit/QMUI_Common (= 0.1.12)
+    - HTUIKit/WRNavigationBar (= 0.1.12)
+  - HTUIKit/BRPickerView (0.1.12)
+  - HTUIKit/DLRadioButton (0.1.12)
+  - HTUIKit/DLSlideView (0.1.12)
+  - HTUIKit/HTDownloadView (0.1.12)
+  - HTUIKit/HTFormView (0.1.12):
     - HTUIKit/BRPickerView
-  - HTUIKit/HTSignature (0.1.10)
-  - HTUIKit/LGAlertView (0.1.10)
-  - HTUIKit/LisztPageKit (0.1.10)
-  - HTUIKit/QMUI_Common (0.1.10):
+  - HTUIKit/HTSignature (0.1.12)
+  - HTUIKit/LGAlertView (0.1.12)
+  - HTUIKit/LisztPageKit (0.1.12)
+  - HTUIKit/QMUI_Common (0.1.12):
     - QMUIKit (= 3.1.7)
-  - HTUIKit/WRNavigationBar (0.1.10)
+  - HTUIKit/WRNavigationBar (0.1.12)
   - QMUIKit (3.1.7):
     - QMUIKit/QMUIComponents (= 3.1.7)
     - QMUIKit/QMUICore (= 3.1.7)
@@ -300,7 +301,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HTUIKit: 9e132240fb87a5a83405f8717fd96750b62241eb
+  HTUIKit: 1564bd7866f36f22775a95a761b4f798d2bb1293
   QMUIKit: de5dce4852e6856f8d87b3553505b693c003265f
 
 PODFILE CHECKSUM: e1e3a5740d78177fbdc263c641b89855ca76ee82
