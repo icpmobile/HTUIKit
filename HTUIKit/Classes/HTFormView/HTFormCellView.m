@@ -98,7 +98,8 @@
         _nextImageView.backgroundColor = [UIColor clearColor];
         
         NSBundle *bundle = [NSBundle bundleForClass:[HTFormCellView class]];
-        NSString *path = [bundle pathForResource:@"ht_ui_icon_next@2x.png" ofType:nil  inDirectory:@"HTUIKit.bundle"];
+        
+        NSString *path = [bundle pathForResource:@"ht_ui_icon_next@2x.png" ofType:nil  inDirectory:@"HTFormView.bundle"];
 
         _nextImageView.image = [UIImage imageWithContentsOfFile:path];
     }

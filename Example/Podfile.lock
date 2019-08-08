@@ -1,29 +1,31 @@
 PODS:
-  - HTUIKit (0.1.13):
-    - HTUIKit/BRPickerView (= 0.1.13)
-    - HTUIKit/DLRadioButton (= 0.1.13)
-    - HTUIKit/DLSlideView (= 0.1.13)
-    - HTUIKit/HTDownloadView (= 0.1.13)
-    - HTUIKit/HTFormView (= 0.1.13)
-    - HTUIKit/HTSignature (= 0.1.13)
-    - HTUIKit/LGAlertView (= 0.1.13)
-    - HTUIKit/LisztPageKit (= 0.1.13)
-    - HTUIKit/LXGradientProcessView (= 0.1.13)
-    - HTUIKit/QMUI_Common (= 0.1.13)
-    - HTUIKit/WRNavigationBar (= 0.1.13)
-  - HTUIKit/BRPickerView (0.1.13)
-  - HTUIKit/DLRadioButton (0.1.13)
-  - HTUIKit/DLSlideView (0.1.13)
-  - HTUIKit/HTDownloadView (0.1.13)
-  - HTUIKit/HTFormView (0.1.13):
+  - HTUIKit (0.1.14):
+    - HTUIKit/BRPickerView (= 0.1.14)
+    - HTUIKit/DLRadioButton (= 0.1.14)
+    - HTUIKit/DLSlideView (= 0.1.14)
+    - HTUIKit/DropdownMenu (= 0.1.14)
+    - HTUIKit/HTDownloadView (= 0.1.14)
+    - HTUIKit/HTFormView (= 0.1.14)
+    - HTUIKit/HTSignature (= 0.1.14)
+    - HTUIKit/LGAlertView (= 0.1.14)
+    - HTUIKit/LisztPageKit (= 0.1.14)
+    - HTUIKit/LXGradientProcessView (= 0.1.14)
+    - HTUIKit/QMUI_Common (= 0.1.14)
+    - HTUIKit/WRNavigationBar (= 0.1.14)
+  - HTUIKit/BRPickerView (0.1.14)
+  - HTUIKit/DLRadioButton (0.1.14)
+  - HTUIKit/DLSlideView (0.1.14)
+  - HTUIKit/DropdownMenu (0.1.14)
+  - HTUIKit/HTDownloadView (0.1.14)
+  - HTUIKit/HTFormView (0.1.14):
     - HTUIKit/BRPickerView
-  - HTUIKit/HTSignature (0.1.13)
-  - HTUIKit/LGAlertView (0.1.13)
-  - HTUIKit/LisztPageKit (0.1.13)
-  - HTUIKit/LXGradientProcessView (0.1.13)
-  - HTUIKit/QMUI_Common (0.1.13):
+  - HTUIKit/HTSignature (0.1.14)
+  - HTUIKit/LGAlertView (0.1.14)
+  - HTUIKit/LisztPageKit (0.1.14)
+  - HTUIKit/LXGradientProcessView (0.1.14)
+  - HTUIKit/QMUI_Common (0.1.14):
     - QMUIKit (= 3.1.7)
-  - HTUIKit/WRNavigationBar (0.1.13)
+  - HTUIKit/WRNavigationBar (0.1.14)
   - QMUIKit (3.1.7):
     - QMUIKit/QMUIComponents (= 3.1.7)
     - QMUIKit/QMUICore (= 3.1.7)
@@ -303,7 +305,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HTUIKit: 622579778e84e47fe34fe82ba39668bf54222e02
+  HTUIKit: 825e17f2daad450fa8aaed1261c9d04a39d7833a
   QMUIKit: de5dce4852e6856f8d87b3553505b693c003265f
 
 PODFILE CHECKSUM: e1e3a5740d78177fbdc263c641b89855ca76ee82

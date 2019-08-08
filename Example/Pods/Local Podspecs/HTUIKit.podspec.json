@@ -1,6 +1,6 @@
 {
   "name": "HTUIKit",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "summary": "ICP-Mobile UI组件库之 HTUIKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/icpmobile/HTUIKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/icpmobile/HTUIKit.git",
-    "tag": "0.1.13"
+    "tag": "0.1.14"
   },
   "platforms": {
     "ios": "9.0"
@@ -38,6 +38,11 @@
       "dependencies": {
         "HTUIKit/BRPickerView": [
 
+        ]
+      },
+      "resource_bundles": {
+        "HTFormView": [
+          "HTUIKit/Assets/HTFormView/*"
         ]
       }
     },
@@ -77,6 +82,15 @@
     {
       "name": "LXGradientProcessView",
       "source_files": "HTUIKit/Classes/LXGradientProcessView"
+    },
+    {
+      "name": "DropdownMenu",
+      "source_files": "HTUIKit/Classes/DropdownMenu",
+      "resource_bundles": {
+        "DropdownMenu": [
+          "HTUIKit/Assets/DropdownMenu/*"
+        ]
+      }
     }
   ]
 }

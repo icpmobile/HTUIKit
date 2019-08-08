@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTUIKit'
-  s.version          = '0.1.13'
+  s.version          = '0.1.14'
   s.summary          = 'ICP-Mobile UI组件库之 HTUIKit.'
 
 # This description is used to generate tags and improve search results.
@@ -51,6 +51,9 @@ TODO: Add long description of the pod here.
   s.subspec 'HTFormView' do |form|
     form.source_files = 'HTUIKit/Classes/HTFormView'
     form.dependency 'HTUIKit/BRPickerView'
+    form.resource_bundles = {
+      'HTFormView' => ['HTUIKit/Assets/HTFormView/*']
+    }
   end
 #
   s.subspec 'HTSignature' do |si|
@@ -87,6 +90,11 @@ TODO: Add long description of the pod here.
   end
   
   
-  
+  s.subspec 'DropdownMenu' do |udm|
+    udm.source_files = 'HTUIKit/Classes/DropdownMenu'
+    udm.resource_bundles = {
+      'DropdownMenu' => ['HTUIKit/Assets/DropdownMenu/*']
+    }
+  end
   
 end
