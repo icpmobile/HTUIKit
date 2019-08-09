@@ -71,6 +71,7 @@
 #import "QDCommonUI.h"
 #import "QDUIHelper.h"
 #import "UIImageEffects.h"
+#import "TKTagView.h"
 #import "WRCustomNavigationBar.h"
 #import "WRNavigationBar.h"
 
