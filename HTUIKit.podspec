@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTUIKit'
-  s.version          = '0.1.15'
+  s.version          = '0.1.16'
   s.summary          = 'ICP-Mobile UI组件库之 HTUIKit.'
 
 # This description is used to generate tags and improve search results.
@@ -42,6 +42,7 @@ TODO: Add long description of the pod here.
 #
   s.subspec 'WRNavigationBar' do |wr|
     wr.source_files = 'HTUIKit/Classes/WRNavigationBar'
+    wr.dependency 'SDAutoLayout'
   end
 #
   s.subspec 'BRPickerView' do |br|
@@ -69,10 +70,7 @@ TODO: Add long description of the pod here.
     dl.source_files = 'HTUIKit/Classes/DLRadioButton'
   end
 
-  s.subspec 'LGAlertView' do |lgav|
-    lgav.source_files = 'HTUIKit/Classes/LGAlertView'
-  end
-  
+
   s.subspec 'LisztPageKit' do |dlv|
       dlv.source_files = 'HTUIKit/Classes/LisztPageKit/**/*'
   end

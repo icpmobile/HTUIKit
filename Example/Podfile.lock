@@ -7,7 +7,6 @@ PODS:
     - HTUIKit/HTDownloadView (= 0.1.15)
     - HTUIKit/HTFormView (= 0.1.15)
     - HTUIKit/HTSignature (= 0.1.15)
-    - HTUIKit/LGAlertView (= 0.1.15)
     - HTUIKit/LisztPageKit (= 0.1.15)
     - HTUIKit/LXGradientProcessView (= 0.1.15)
     - HTUIKit/QMUI_Common (= 0.1.15)
@@ -21,13 +20,13 @@ PODS:
   - HTUIKit/HTFormView (0.1.15):
     - HTUIKit/BRPickerView
   - HTUIKit/HTSignature (0.1.15)
-  - HTUIKit/LGAlertView (0.1.15)
   - HTUIKit/LisztPageKit (0.1.15)
   - HTUIKit/LXGradientProcessView (0.1.15)
   - HTUIKit/QMUI_Common (0.1.15):
     - QMUIKit (= 3.1.7)
   - HTUIKit/TKTagView (0.1.15)
-  - HTUIKit/WRNavigationBar (0.1.15)
+  - HTUIKit/WRNavigationBar (0.1.15):
+    - SDAutoLayout
   - QMUIKit (3.1.7):
     - QMUIKit/QMUIComponents (= 3.1.7)
     - QMUIKit/QMUICore (= 3.1.7)
@@ -294,6 +293,7 @@ PODS:
     - QMUIKit/QMUILog
   - QMUIKit/QMUIResources (3.1.7)
   - QMUIKit/QMUIWeakObjectContainer (3.1.7)
+  - SDAutoLayout (2.2.1)
 
 DEPENDENCIES:
   - HTUIKit (from `../`)
@@ -301,14 +301,16 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - QMUIKit
+    - SDAutoLayout
 
 EXTERNAL SOURCES:
   HTUIKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HTUIKit: 0104a1bff0b9e3e4a75ab820216d04062a56b415
+  HTUIKit: 6ccd5b78c43dc5f11ffd0809774e1cc3df1b69a2
   QMUIKit: de5dce4852e6856f8d87b3553505b693c003265f
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
 
 PODFILE CHECKSUM: e1e3a5740d78177fbdc263c641b89855ca76ee82
 

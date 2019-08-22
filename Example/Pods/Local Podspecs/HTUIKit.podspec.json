@@ -21,7 +21,12 @@
   "subspecs": [
     {
       "name": "WRNavigationBar",
-      "source_files": "HTUIKit/Classes/WRNavigationBar"
+      "source_files": "HTUIKit/Classes/WRNavigationBar",
+      "dependencies": {
+        "SDAutoLayout": [
+
+        ]
+      }
     },
     {
       "name": "BRPickerView",
@@ -57,10 +62,6 @@
     {
       "name": "DLRadioButton",
       "source_files": "HTUIKit/Classes/DLRadioButton"
-    },
-    {
-      "name": "LGAlertView",
-      "source_files": "HTUIKit/Classes/LGAlertView"
     },
     {
       "name": "LisztPageKit",
